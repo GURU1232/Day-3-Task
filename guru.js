@@ -8,3 +8,5 @@ let obj2 ={
 };
 console.log(Object.is(obj1,obj2))
 
+// i got the input and used the Object.is format 
+// along to that the output has declared

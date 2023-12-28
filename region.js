@@ -1,8 +1,8 @@
-var theRequest = new XMLHttpRequest()
+var theRequest = new XMLHttpRequest() // rest countries url
 
 theReqUrl = 'https://restcountries.com/v3.1/all';
 
-theRequest.open('GET',theReqUrl)
+theRequest.open('GET',theReqUrl) // getting the request
 theRequest.send()
 theRequest.onload = function(){
     var ContrDat = JSON.parse(theRequest.response);
